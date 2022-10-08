@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary Card Component Tailwind CSS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Overpass:wght@100&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+<body class="bg-image">
+    <div class="flex h-screen justify-center items-center space-x-4">
+      <main class="mx-auto bg-white rounded-xl w-96 drop-shadow-xl">
+        <picture class="block">
+          <img class="rounded-t-lg" src="./images/illustration-hero.svg" alt="Hero Illustration images" />
+        </picture>
+        <section class="py-6 px-8">
+          <h1 class="font-bold text-black text-2xl text-center mb-4">Order Summary</h1>
+          <p class="font-light text-[#8b8faa] text-sm text-center mb-4">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+          
+          <section class="flex rounded-lg bg-[#f8f9fe] p-6 items-center">
+            <picture class="flex-none mr-3">
+              <img class="rounded-full" src="./images/icon-music.svg" alt="Music Icon images" />
+            </picture>
+            <div class="flex-auto w-10 mr-6">
+              <h3 class="font-bold text-[#27335d]">Annual Plan</h3>
+              <p class="font-light text-[#8b8faa]">$59.99/year</p>
+            </div>
+            <div class="flex-auto w-10 text-right">
+              <a href="#" class="font-medium text-[#382ae1] underline hover:no-underline hover:text-[#766cf1]">Change</a>
+            </div>
+          </section>
+
+          <button class="font-bold rounded-lg bg-[#382ae1] text-white block p-2 w-full mt-4 hover:bg-[#766cf1]">Proceed to Payment</button>
+          <button class="font-bold rounded-lg text-black block p-2 w-full mt-4">Cancel Order</button>
+        </section>
+      </main>
+    </div>
+    
+</body>
+</html>
